@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  color: rgba(69, 69, 69, 0.4235294118);
+}
+
+main {
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.color {
+  width: 260px;
+  height: 70px;
+  margin: 20px auto;
+  border-radius: 20px;
+  box-shadow: 0px 0px 4px 3px rgba(69, 69, 69, 0.4235294118);
+  transition: 0.3s;
+}
+
+section {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding: 20px;
+  min-width: 300px;
+  max-width: 500px;
+  max-height: 60vh;
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px 3px rgba(69, 69, 69, 0.4235294118);
+}
+
+button, input {
+  width: 40px;
+  height: 40px;
+  margin: auto 6px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+button:hover, input:hover {
+  border: 1px solid black;
+  scale: 1.1;
+  transition: 0.3s;
+}
+
+.red {
+  background-color: rgb(255, 0, 0);
+}
+
+.green {
+  background-color: rgb(0, 255, 0);
+}
+
+.blue {
+  background-color: rgb(0, 0, 255);
+}
+
+.black {
+  background-color: rgb(0, 0, 0);
+}
+
+.rgb {
+  margin: 1rem 0 0 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  max-width: 300px;
+  padding: 1em;
+  border-radius: 20px;
+  box-shadow: 0px 0px 3px 3px rgba(69, 69, 69, 0.4235294118);
+}
+
+div {
+  display: grid;
+  place-items: center;
+  margin: 0 auto;
+}/*# sourceMappingURL=color.css.map */
